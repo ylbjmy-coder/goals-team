@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goals Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+
+      
+      
+
+      <h1>Goals Team</h1>
+      <p class="subtitle">معًا نحقق أهدافنا الدراسية 🎯</p>
+
+      <input type="text" id="name" placeholder="اكتب اسمك الثلاثي">
+
+      <button onclick="login()">دخول</button>
+
+      <p class="footer-text">تابع Goals Team على</p>
+
+      <div class="social">
+        <a href="https://www.instagram.com/goa.5ls" target="_blank" class="instagram">
+          Instagram
+        </a>
+        <a href="https://www.tiktok.com/@goals.team8" target="_blank" class="tiktok">
+          TikTok
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      const name = document.getElementById("name").value.trim();
+      if (name === "") {
+        alert("الرجاء إدخال الاسم");
+        return;
+      }
+      localStorage.setItem("studentName", name);
+      window.location.href = "subjects.html";
+    }
+  </script>
+
+</body>
+</html>
+

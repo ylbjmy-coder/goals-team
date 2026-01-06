@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goals Team | المواد</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tajawal', Arial, sans-serif;
+      background-color: #B4D4DE;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    /* ====== العنوان والترحيب ====== */
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .welcome {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* ====== الأقسام ====== */
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: #f1f1f1;
+    }
+
+    /* ====== التواصل ====== */
+    .social {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .social a {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    }
+
+    .tiktok {
+      background: #000;
+    }
+
+    /* ====== تسجيل الخروج ====== */
+    .logout {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .logout button {
+      background: #d9534f;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .logout button:hover {
+      background: #c9302c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- الترحيب -->
+    <div class="top">
+      <div class="welcome" id="welcomeText">أهلاً 👋</div>
+    </div>
+
+    <!-- المواد الأدبية -->
+    <div class="section">
+      <h2>📘 المواد الأدبية</h2>
+      <div class="cards">
+        <a class="card" href="https://drive.google.com/drive/folders/1S9gEZOhbVgd3aSF-e6dLQ34k7CjTVH7-" target="_blank">🌍 الجغرافيا</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1NXEuOvmCrVousydeLfjMbnVvf1Ypp67z" target="_blank">🕌 الحضارة الإسلامية</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1JzkI9N-4QwFeoZbnuSBbcOCeAAeAmiwH" target="_blank">➗ الرياضيات الأساسية</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1nkoOHYp-iKJFB7SHxngm_wyEh-oGQPvW" target="_blank">🌱 العلوم البيئية</a>
+      </div>
+    </div>
+
+    <!-- المواد الأساسية -->
+    <div class="section">
+      <h2>📗 المواد الأساسية</h2>
+      <div class="cards">
+        <a class="card" href="https://drive.google.com/drive/folders/1cMFLHtyuZTXyqmrmIhfRHxvCJiXKQGcX" target="_blank">🕋 التربية الإسلامية</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1II1rohqf2cpWU2N5tzkjcH4tM_QdQW2f" target="_blank">🇬🇧 اللغة الإنجليزية</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1F6cAiX6i-Q4kTe7OnJW1vYHhIZK21GbR" target="_blank">🇸🇦 اللغة العربية</a>
+        <a class="card" href="https://drive.google.com/drive/folders/17NDoqmeQNw2-bDwWyzsGeBc1vnY6_1bT" target="_blank">🏳️ هذا وطني</a>
+      </div>
+    </div>
+
+    <!-- المواد العلمية -->
+    <div class="section">
+      <h2>🔬 المواد العلمية</h2>
+      <div class="cards">
+        <a class="card" href="https://drive.google.com/drive/folders/1_3kF9fP7t22_PUNJ0xN3nhCigCOXbNSf" target="_blank">🧬 الأحياء</a>
+        <a class="card" href="https://drive.google.com/drive/folders/10Ba049PfHJOZ4byHQuTWZ-CjkMADgu9u" target="_blank">📐 رياضيات متقدمة</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1HbhYLLYGHxAYx3RDdNwvJC3_KzVkE8YA" target="_blank">⚡ الفيزياء</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1GxYXI0LszbaMPbYrhl0uwQpRyxQ7wBGB" target="_blank">🧪 الكيمياء</a>
+      </div>
+    </div>
+
+    <!-- المواد الفردية -->
+    <div class="section">
+      <h2>🎨 المواد الفردية</h2>
+      <div class="cards">
+        <a class="card" href="https://drive.google.com/drive/folders/1zqHcEzN1MA4xYFtDnS4it2FaN0a-8Zvi" target="_blank">🏃 الرياضة المدرسية</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1p2ogXAanfBSYaHXr7waBed6cYmEBweKO" target="_blank">🖌️ الفنون التشكيلية</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1CAq-CCzfsGwF54VWzTPDVShFYDy3S_cI" target="_blank">🎵 الموسيقى</a>
+        <a class="card" href="https://drive.google.com/drive/folders/1dET2gV5m4jged1GRamU20rmiRtQQLyj1" target="_blank">💻 تقنية المعلومات</a>
+      </div>
+    </div>
+
+    <!-- حسابات التواصل -->
+    <div class="social">
+      <a class="instagram" href="https://www.instagram.com/goa.5ls" target="_blank">Instagram</a>
+      <a class="tiktok" href="https://www.tiktok.com/@goals.team8" target="_blank">TikTok</a>
+    </div>
+
+    <!-- تسجيل الخروج -->
+    <div class="logout">
+      <button onclick="logout()">تسجيل الخروج</button>
+    </div>
+
+  </div>
+
+  <script>
+    // جلب الاسم من الصفحة الأولى
+    const name = localStorage.getItem("studentName");
+    if (name) {
+      document.getElementById("welcomeText").textContent = "أهلاً " + name + " 👋";
+    }
+
+    function logout() {
+      localStorage.removeItem("studentName");
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+</html>
+
